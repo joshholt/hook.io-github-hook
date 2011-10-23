@@ -2,18 +2,25 @@
   "author": "Josh Holt <holt.josh@gmail.com> (http://joshholt.github.com)",
   "name": "hook.io-github-hook",
   "description": "A webhook to process github post receive",
-	"keywords" : [ "hook.io", "hook" ],
+  "keywords": [
+    "hook.io",
+    "hook"
+  ],
   "version": "0.0.1",
-  "homepage": "http://github.com/joshholt/hook.io-github",
-	"bin": {
-		"hookio-github-hook" : "./bin/github-hook"
-	},
+  "homepage": "http://github.com/joshholt/hook.io-github-hook",
+  "bin": {
+    "hookio-github-hook": "./bin/github-hook"
+  },
   "main": "./lib/github-hook2",
   "engines": {
     "node": ">=v0.4.7"
   },
   "dependencies": {
-		"hook.io" : "0.7.x"
-	},
-  "devDependencies": {}
+    "hook.io": "0.7.x"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joshholt/hook.io-github-hook.git"
+  }
 }
