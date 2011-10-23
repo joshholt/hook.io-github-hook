@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+var	GitHubHook = require('../lib/github-hook2').GitHubHook, gHook;
+gHook = new GitHubHook({	name: 'github-processor', debug:true });
+gHook.start();
